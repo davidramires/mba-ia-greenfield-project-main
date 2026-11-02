@@ -1,0 +1,21 @@
+.history/
+settings.local.json
+# dependencies & build (monorepo safety)
+**/node_modules/
+**/dist/
+**/.next/
+**/coverage/
+**/build/
+
+# local env (keep *.example)
+.env
+.env.local
+.env.*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+
+# Playwright / test run artifacts
+**/playwright-report/
+**/test-results/
